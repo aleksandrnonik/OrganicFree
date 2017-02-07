@@ -1,0 +1,12 @@
+*	{
+	border: none;
+	padding: 0;
+
+} 
+body {
+	background: grey;
+}
+.bg {
+	background: url("image/bg_header.png") center;
+/*position: center;*/
+}
