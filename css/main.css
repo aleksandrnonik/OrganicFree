@@ -1,0 +1,106 @@
+body {
+	font-size: 14px;
+	line-height: 1.2;
+	font-family: sans-serif;
+}
+
+header {
+	background: #ccc url('../image/bg_header.png') no-repeat 20% 20%;
+}
+
+.header {
+	min-height: 50vh;
+}
+
+.header nav ul li {
+	margin-right: 1em;
+}
+
+ul {
+	/**/
+	border: 1px dotted blue;
+}
+
+	ul li {
+		list-style: none;
+	}
+
+.container {/* ... */}
+
+	.container .quote,
+	.container .story {
+		font-size: .85em;
+	}
+
+	.container .quote,
+	.container .contact {
+		width: 31%;
+	}
+
+	.container .story,
+	.container .sitemap {
+		width: 67%;
+	}
+
+.sitemap {
+	justify-content: space-between;
+}
+
+	.sitemap * {
+		min-width: auto;
+	}
+
+	.sitemap ul li {
+		word-wrap: normal;
+	}
+
+footer {
+	font-size: .75em; 
+}
+
+/*nav {
+	width: 60%;
+	margin: 0 auto;
+	border: 1px solid black;
+}*/
+/*.slide-text {
+	width: 60%;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+.body-text {
+
+	width: 60%;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+.quote-text {
+	float: left;
+	width: 31%;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+.story-text {
+	float: right;
+	width: 67%;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+.info-text {
+	margin: 0;
+	width: 60%;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+.contact-text {
+	float: left;
+	width: 31%;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+.label-text {
+	float: right;
+	width: 67%;
+	margin: 0 auto;
+	border: 1px solid black;
+}*/
